@@ -1,0 +1,1813 @@
+nav {
+    text-align:right;
+    width: 100%;
+    background: #bebebe;
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    position:relative;
+  }
+  nav ul {
+    background: #bebebe;
+    list-style:none;
+    padding:0 20px;
+    margin: 0;
+    height: 60px;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a {
+    color:#333333;
+    display:list-item;
+    padding:0px 40px;
+    text-decoration:none;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    float:right;
+    height: 50px;
+    line-height: 50px;
+    transition: 0.2s ease;
+  }
+  nav ul li:hover {
+    border-color: #6d6666;
+  }
+  nav ul li:hover > a{
+      color:#ffffff;
+      border-color: #000000;
+  }
+  nav ul li:hover > ul {
+    display:list-item;
+    border-color: #000000;
+  }
+  nav ul ul {
+    background: #bebebe;
+    padding:0;
+    text-align: center;
+    display:none;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+  }
+  .Container2{
+    width: auto;
+    height:auto;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdsjHP.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .inconCO{
+    height: 540px;
+    width: 1419;
+    background-color: #f5f5f588;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .contentin p{
+    font-family: "Old English Text MT";
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 150px;
+    text-align: center;
+  }
+  hr {
+    height:5px;
+    border-width:0;
+    background-color:#132022;
+  }
+  .quo p{
+    font-family: "AGaramond";
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 5px;
+    text-align: center;
+    border-top: 2px #000000;
+  }
+  .adcp{
+    width: 1499px;
+    height: 170px;
+    border-style: inset;
+  }
+  .adcp a{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bolder;
+  }
+  .inadcp{
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding: 3rem;
+    height:0%;
+    opacity: 0.8;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    display: flex;
+    gap: 350px;
+    flex-direction: row;
+  }
+  
+.footer{
+  background-color: #5d81a3de;
+  color: white;
+  width: 1473px;
+  height: 60px;
+  padding: 1rem;
+}
+.Container1{
+  width: 1475px;
+  height: 380px;
+  
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+}
+.Container1 a{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #000;
+  text-decoration: none;
+}
+.flexbox-container{
+  height: 280px;
+  width: 1100;
+  padding: 3rem;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
+  grid-template-columns: auto auto auto auto;
+
+  display: flex;
+  gap: 50px;
+  flex-direction: row;
+}
+.footer{
+  font-size: x-small;
+}
+.fimg{
+  float: left;
+  margin: 3px;
+}
+.btn {
+  background-color: #fffffff5;
+  border-radius: 50%;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 12px 12px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.btn:hover {
+  background-color: #bebebe;
+  border-radius: 10;
+}
+.adcp a{
+  text-decoration: none;
+}
+
+/** SBMA assets **/
+.sbmaCon{
+width: auto;
+height:auto;
+background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdsjHP.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+padding-left: 15px;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-right: 15px;
+}
+.sbmapic{
+  width: auto;
+    display: block;
+    margin-left: 15%;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.sbmacon2{
+  width: 1475px;
+  height: 540px;
+  
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+}
+.sbmatranscontainer{
+height: 475px;
+  width: 1100;
+  padding: 2rem;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
+  grid-template-columns: auto auto auto auto;
+
+  display: flex;
+  gap: 50px;
+  flex-direction: row;
+}
+.description a{
+  font-weight:bold;
+  font-size: larger;
+}
+.description a li{
+  font-size: medium;
+}
+
+/** SCST assets **/
+.scstCon{
+  width: auto;
+  height:auto;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdsjHP.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  }
+  .scstpic{
+    width: auto;
+    display: block;
+    margin-left: 15%;
+    margin-right: auto;
+    margin-top: 5%;
+  }
+  .scstcon2{
+    width: 1475px;
+    height: 540px;
+    
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .scsttranscontainer{
+  height: 475px;
+    width: 1100;
+    padding: 2rem;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    grid-template-columns: auto auto auto auto;
+  
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+  }
+  .description a{
+    font-weight:bold;
+    font-size: larger;
+  }
+  .description a li{
+    font-size: medium;
+  }
+
+  /** SEAS assets **/
+.seasCon{
+  width: auto;
+  height:auto;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdsjHP.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  }
+  .seaspic{
+    width: auto;
+    display: block;
+    margin-left: 15%;
+    margin-right: auto;
+    margin-top: 5%;
+  }
+  .seascon2{
+    width: 1475px;
+    height: 540px;
+    
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .seastranscontainer{
+  height: 475px;
+    width: 1100;
+    padding: 2rem;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    grid-template-columns: auto auto auto auto;
+  
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+  }
+  .description a{
+    font-weight:bold;
+    font-size: larger;
+  }
+  .description a li{
+    font-size: medium;
+  }
+
+   /** SEA assets **/
+.seaCon{
+  width: auto;
+  height:auto;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdsjHP.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  }
+  .seapic{
+    width: auto;
+    display: block;
+    margin-left: 15%;
+    margin-right: auto;
+    margin-top: 5%;
+  }
+  .seacon2{
+    width: 1475px;
+    height: 540px;
+    
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .seatranscontainer{
+  height: 475px;
+    width: 1100;
+    padding: 2rem;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    grid-template-columns: auto auto auto auto;
+  
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+  }
+  .description a{
+    font-weight:bold;
+    font-size: larger;
+  }
+  .description a li{
+    font-size: medium;
+  }
+/** SN assets **/
+.snCon{
+  width: auto;
+  height:auto;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdsjHP.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  }
+  .snpic{
+    width: auto;
+    display: block;
+    margin-left: 15%;
+    margin-right: auto;
+    margin-top: 5%;
+  }
+  .sncon2{
+    width: 1475px;
+    height: 520px;
+    
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .sntranscontainer{
+  height: 450px;
+    width: 1100;
+    padding: 2rem;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    grid-template-columns: auto auto auto auto;
+  
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+  }
+  .description a{
+    font-weight:bold;
+    font-size: larger;
+  }
+  .description a li{
+    font-size: medium;
+  }
+
+  /** STHM assets **/
+.sthmCon{
+  width: auto;
+  height:auto;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdsjHP.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  }
+  .sthmpic{
+    width: auto;
+    display: block;
+    margin-left: 15%;
+    margin-right: auto;
+    margin-top: 5%;
+  }
+  .sthmcon2{
+    width: 1475px;
+    height: 520px;
+    
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .sthmtranscontainer{
+  height: 450px;
+    width: 1100;
+    padding: 2rem;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    grid-template-columns: auto auto auto auto;
+  
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+  }
+  .description a{
+    font-weight:bold;
+    font-size: larger;
+  }
+  .description a li{
+    font-size: medium;
+  }
+
+  /** ASASO assets **/
+.ACon{
+  width: auto;
+  height:auto;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdsjHP.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  }
+  .apic{
+    width: auto;
+    display: block;
+    margin-left: 15%;
+    margin-right: auto;
+    margin-top: 5%;
+  }
+  .acon2{
+    width: 1475px;
+    height: 555px;
+    
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .atranscontainer{
+  height: 485px;
+    width: 1100;
+    padding: 2rem;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    grid-template-columns: auto auto auto auto;
+  
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+  }
+  .description a{
+    font-weight:bold;
+    font-size: larger;
+  }
+  .description a li{
+    font-size: medium;
+  }
+
+ /** QMD assets **/
+ .qmdCon{
+  width: auto;
+  height:auto;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdsjHP.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  }
+  .qmdpic{
+    display: block;
+    margin-left: 8%;
+    margin-right: auto;
+    margin-top: 1%;
+  }
+  .qmdcon2{
+    width: 1475px;
+    height: 520px;
+    
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .qmdtranscontainer{
+  height: 450px;
+    width: 1100;
+    padding: 2rem;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    grid-template-columns: auto auto auto auto;
+  
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+  }
+  .description a{
+    font-weight:bold;
+    font-size: larger;
+  }
+  .description a li{
+    font-size: medium;
+  }
+  /** LSD assets **/
+ .lsdCon{
+  width: auto;
+  height:auto;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdsjHP.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  }
+  .lsdpic{
+    display: block;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 1.5%;
+  }
+  .lsdcon2{
+    width: 1475px;
+    height: 550px;
+    
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .lsdtranscontainer{
+  height: 480px;
+    width: 1100;
+    padding: 2rem;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    grid-template-columns: auto auto auto auto;
+  
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+  }
+  .description a{
+    font-weight:bold;
+    font-size: larger;
+  }
+  .description a li{
+    font-size: medium;
+  }
+  /** RD assets **/
+  .rdCon{
+    width: auto;
+    height:auto;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdsjHP.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    }
+    .rdpic{
+      display: block;
+      margin-left: 15%;
+      margin-right: auto;
+      margin-top: 5%;
+    }
+    .rdcon2{
+      width: 1475px;
+      height: 540px;
+      
+      background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-left: 15px;
+      padding-top: 10px;
+      padding-bottom: 15px;
+      padding-right: 15px;
+    }
+    .rdtranscontainer{
+    height: 470px;
+      width: 1100;
+      padding: 2rem;
+      background-color: #ffffff;
+      border: 1px solid black;
+      opacity: 0.8;
+      grid-template-columns: auto auto auto auto;
+    
+      display: flex;
+      gap: 50px;
+      flex-direction: row;
+    }
+    .description a{
+      font-weight:bold;
+      font-size: larger;
+    }
+    .description a li{
+      font-size: medium;
+    }
+
+ /** BED assets **/
+ .bCon{
+  width: auto;
+  height:auto;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdsjHP.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  }
+  .bpic{
+    display: block;
+      margin-left: 15%;
+      margin-right: auto;
+      margin-top: 5%;
+  }
+  .bcon2{
+    width: 1475px;
+    height: 610px;
+    
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .btranscontainer{
+  height: 540px;
+    width: 1100;
+    padding: 2rem;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    grid-template-columns: auto auto auto auto;
+  
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+  }
+  .description a{
+    font-weight:bold;
+    font-size: larger;
+  }
+  .description a li{
+    font-size: medium;
+  }
+  /** SHS assets **/
+  .shsCon{
+    width: auto;
+    height:auto;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdsjHP.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    }
+    .shspic{
+      display: block;
+      margin-left: 15%;
+      margin-right: auto;
+      margin-top: 5%;
+    }
+    .shscon2{
+      width: 1475px;
+      height: 590px;
+      
+      background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-left: 15px;
+      padding-top: 10px;
+      padding-bottom: 15px;
+      padding-right: 15px;
+    }
+    .shstranscontainer{
+    height: 520px;
+      width: 1100;
+      padding: 2rem;
+      background-color: #ffffff;
+      border: 1px solid black;
+      opacity: 0.8;
+      grid-template-columns: auto auto auto auto;
+    
+      display: flex;
+      gap: 50px;
+      flex-direction: row;
+    }
+    .description a{
+      font-weight:bold;
+      font-size: larger;
+    }
+    .description a li{
+      font-size: medium;
+    }
+      /** GS assets **/
+  .gsCon{
+    width: auto;
+    height:auto;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdsjHP.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    }
+    .gspic{
+      display: block;
+      margin-left: 15%;
+      margin-right: auto;
+      margin-top: 5%;
+    }
+    .gscon2{
+      width: 1475px;
+      height: 540px;
+      
+      background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-left: 15px;
+      padding-top: 10px;
+      padding-bottom: 15px;
+      padding-right: 15px;
+    }
+    .gstranscontainer{
+    height: 470px;
+      width: 1100;
+      padding: 2rem;
+      background-color: #ffffff;
+      border: 1px solid black;
+      opacity: 0.8;
+      grid-template-columns: auto auto auto auto;
+    
+      display: flex;
+      gap: 50px;
+      flex-direction: row;
+    }
+    .description a{
+      font-weight:bold;
+      font-size: larger;
+    }
+    .description a li{
+      font-size: medium;
+    }
+
+        /** HRD assets **/
+  .hrdCon{
+    width: auto;
+    height:auto;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdsjHP.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    }
+    .hrdpic{
+      display: block;
+      margin-left: 15%;
+      margin-right: auto;
+      margin-top: 5%;
+    }
+    .hrdcon2{
+      width: 1475px;
+      height: 610px;
+      
+      background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-left: 15px;
+      padding-top: 10px;
+      padding-bottom: 15px;
+      padding-right: 15px;
+    }
+    .hrdtranscontainer{
+    height: 540px;
+      width: 1100;
+      padding: 2rem;
+      background-color: #ffffff;
+      border: 1px solid black;
+      opacity: 0.8;
+      grid-template-columns: auto auto auto auto;
+    
+      display: flex;
+      gap: 50px;
+      flex-direction: row;
+    }
+    .description a{
+      font-weight:bold;
+      font-size: larger;
+    }
+    .description a li{
+      font-size: medium;
+    }
+
+  /** ITD assets **/
+  .itCon{
+    width: auto;
+    height:auto;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdsjHP.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    }
+    .itpic{
+      display: block;
+      margin-left: 15%;
+      margin-right: auto;
+      margin-top: 5%;
+    }
+    .itcon2{
+      width: 1475px;
+      height: 490px;
+      
+      background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-left: 15px;
+      padding-top: 10px;
+      padding-bottom: 15px;
+      padding-right: 15px;
+    }
+    .ittranscontainer{
+    height: 420px;
+      width: 1100;
+      padding: 2rem;
+      background-color: #ffffff;
+      border: 1px solid black;
+      opacity: 0.8;
+      grid-template-columns: auto auto auto auto;
+    
+      display: flex;
+      gap: 50px;
+      flex-direction: row;
+    }
+    .description a{
+      font-weight:bold;
+      font-size: larger;
+    }
+    .description a li{
+      font-size: medium;
+    }
+
+/** FMGSD assets **/
+  .fmCon{
+    width: auto;
+    height:auto;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdsjHP.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    }
+    .fmpic{
+      display: block;
+      margin-left: 15%;
+      margin-right: auto;
+      margin-top: 5%;
+    }
+    .fmcon2{
+      width: 1475px;
+      height: 540px;
+      
+      background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-left: 15px;
+      padding-top: 10px;
+      padding-bottom: 15px;
+      padding-right: 15px;
+    }
+    .fmtranscontainer{
+    height: 470px;
+      width: 1100;
+      padding: 2rem;
+      background-color: #ffffff;
+      border: 1px solid black;
+      opacity: 0.8;
+      grid-template-columns: auto auto auto auto;
+    
+      display: flex;
+      gap: 50px;
+      flex-direction: row;
+    }
+    .description a{
+      font-weight:bold;
+      font-size: larger;
+    }
+    .description a li{
+      font-size: medium;
+    }
+
+/** ACCTG assets **/
+.accCon{ 
+  width: auto;
+  height:auto;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdsjHP.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  }
+  .accpic{
+    display: block;
+      margin-left: 15%;
+      margin-right: auto;
+      margin-top: 5%;
+  }
+  .acccon2{
+    width: 1475px;
+    height: 540px;
+    
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .acctranscontainer{
+  height: 470px;
+    width: 1100;
+    padding: 2rem;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    grid-template-columns: auto auto auto auto;
+  
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+  }
+  .description a{
+    font-weight:bold;
+    font-size: larger;
+  }
+  .description a li{
+    font-size: medium;
+  }
+
+  /** FSD assets **/ 
+  .fsdCon{
+    width: auto;
+    height:auto;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdsjHP.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    }
+    .fsdpic{
+      display: block;
+      margin-left: 15%;
+      margin-right: auto;
+      margin-top: 5%;
+    }
+    .fsdcon2{
+      width: 1475px;
+      height: 540px;
+      
+      background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-left: 15px;
+      padding-top: 10px;
+      padding-bottom: 15px;
+      padding-right: 15px;
+    }
+    .fsdtranscontainer{
+    height: 470px;
+      width: 1100;
+      padding: 2rem;
+      background-color: #ffffff;
+      border: 1px solid black;
+      opacity: 0.8;
+      grid-template-columns: auto auto auto auto;
+    
+      display: flex;
+      gap: 50px;
+      flex-direction: row;
+    }
+    .description a{
+      font-weight:bold;
+      font-size: larger;
+    }
+    .description a li{
+      font-size: medium;
+    }
+
+    /** CMD assets **/
+  .cmdCon{
+    width: auto;
+    height:auto;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdsjHP.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    }
+    .cmdpic{
+      display: block;
+      margin-left: 15%;
+      margin-right: auto;
+      margin-top: 5%;
+    }
+    .cmdcon2{
+      width: 1475px;
+      height: 590px;
+      
+      background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-left: 15px;
+      padding-top: 10px;
+      padding-bottom: 15px;
+      padding-right: 15px;
+    }
+    .cmdtranscontainer{
+    height: 520px;
+      width: 1100;
+      padding: 2rem;
+      background-color: #ffffff;
+      border: 1px solid black;
+      opacity: 0.8;
+      grid-template-columns: auto auto auto auto;
+    
+      display: flex;
+      gap: 50px;
+      flex-direction: row;
+    }
+    .description a{
+      font-weight:bold;
+      font-size: larger;
+    }
+    .description a li{
+      font-size: medium;
+    }
+
+  /** CESD assets **/
+  .cesCon{
+    width: auto;
+    height:auto;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdsjHP.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 15px;  
+    padding-bottom: 15px;
+    padding-right: 15px;
+    }
+    .cespic{
+      display: block;
+      margin-left: 15%;
+      margin-right: auto;
+      margin-top: 5%;
+    }
+    .cescon2{
+      width: 1475px;
+      height: 590px;
+      
+      background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-left: 15px;
+      padding-top: 10px;
+      padding-bottom: 15px;
+      padding-right: 15px;
+    }
+    .cestranscontainer{
+    height: 520px;
+      width: 1100;
+      padding: 2rem;
+      background-color: #ffffff;
+      border: 1px solid black;
+      opacity: 0.8;
+      grid-template-columns: auto auto auto auto;
+    
+      display: flex;
+      gap: 50px;
+      flex-direction: row;
+    }
+    .description a{
+      font-weight:bold;
+      font-size: larger;
+    }
+    .description a li{
+      font-size: medium;
+    }
+
+      /** RED assets **/ 
+  .redCon{
+    width: auto;
+    height:auto;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdsjHP.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    }
+    .redpic{
+      display: block;
+      margin-left: 15%;
+      margin-right: auto;
+      margin-top: 5%;
+    }
+    .redcon2{
+      width: 1475px;
+      height: 520px;
+      
+      background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-left: 15px;
+      padding-top: 10px;
+      padding-bottom: 15px;
+      padding-right: 15px;
+    }
+    .redtranscontainer{
+    height: 450px;
+      width: 1100;
+      padding: 2rem;
+      background-color: #ffffff;
+      border: 1px solid black;
+      opacity: 0.8;
+      grid-template-columns: auto auto auto auto;
+    
+      display: flex;
+      gap: 50px;
+      flex-direction: row;
+    }
+    .description a{
+      font-weight:bold;
+      font-size: larger;
+    }
+    .description a li{
+      font-size: medium;
+    }
+
+      /** StSD assets **/
+  .STsCon{  
+    width: auto;
+    height:auto;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdsjHP.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    }
+    .STspic{
+      display: block;
+      margin-left: 15%;
+      margin-right: auto;
+      margin-top: 5%;
+    }
+    .STscon2{
+      width: 1475px;
+      height: 590px;
+      
+      background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-left: 15px;
+      padding-top: 10px;
+      padding-bottom: 15px;
+      padding-right: 15px;
+    }
+    .STstranscontainer{
+    height: 520px;
+      width: 1100;
+      padding: 2rem;
+      background-color: #ffffff;
+      border: 1px solid black;
+      opacity: 0.8;
+      grid-template-columns: auto auto auto auto;
+    
+      display: flex;
+      gap: 50px;
+      flex-direction: row;
+    }
+    .description a{
+      font-weight:bold;
+      font-size: larger;
+    }
+    .description a li{
+      font-size: medium;
+    }
+
+    /** Administration **/
+.AdminCon{  
+      width: auto;
+      height: 895px;
+      background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("CLC.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-left: 15px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-right: 15px;
+      }
+  .AdmininconCO{
+    height: 863px;
+    width: 1419;
+    background-color: #f5f5f5bb;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+.admin p{
+  font-weight: bold;
+  font-size: medium;
+  padding-left: 4%;
+}
+.admin li a{
+  text-decoration: none;
+  color: #000;
+}
+.admin ul li:hover > a{
+  color:#ffffff;
+}
+.admin a :hover > a{
+  color: white;
+}
+
+/** Career Opportunities assets **/
+.COCon{  
+  width: auto;
+  height: 630px;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("CLC.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+}
+.CoinconCO{
+  height: 590px;
+  width: 1419;
+  background-color: #f5f5f5bb;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+}
+
+/** Program Offerings assets **/
+.ProgCon{  
+  width: auto;
+  height: 2320px;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("CLC.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+}
+.ProginconCO{
+  height: 2280px;
+  width: 1419;
+  background-color: #f5f5f5bb;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+}
+
+/**about assets **/
+.aboutCon{  
+  width: auto;
+  height:auto;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdsjHP.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  }
+  .aboutpic{
+    display: block;
+      margin-left: 15%;
+      margin-right: auto;
+      margin-top: 5%;
+  }
+  .aboutcon2{
+    width: 1475px;
+    height: 440px;
+    
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .abouttranscontainer{
+  height: 370px;
+    width: 1100;
+    padding: 2rem;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    grid-template-columns: auto auto auto auto;
+  
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+  }
+  .description a{
+    font-weight:bold;
+    font-size: larger;
+  }
+  .description a li{
+    font-size: medium;
+  }
+
+  /** Rector's Office Assets**/
+  .ROcon2{
+    width: 1475px;
+    height: 560px;
+    
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .ROtranscontainer{
+  height: 520px;
+    width: 1100;
+    background-color: #f5f5f5ce;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .description a{
+    font-weight:bold;
+    font-size: larger;
+  }
+  .description a li{
+    font-size: medium;
+  }
+
+  /** Office of the Vice President for Academics acad**/
+  .acadcon2{
+    width: 1489px;
+    height: 490px;
+    
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .acadtranscontainer{
+  height: 450px;
+    width: 1100;
+    background-color: #f5f5f5ce;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .description a{
+    font-weight:bold;
+    font-size: larger;
+  }
+  .description a li{
+    font-size: medium;
+  }
+
+  /** Office of the Vice President for Administration  vpAd**/
+  .vpAdcon2{
+    width: 1470px;
+    height: 510px;
+    
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .vpAdtranscontainer{
+    height: 480px;
+    width: 1090;
+    background-color: #f5f5f5ce;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .description a{
+    font-weight:bold;
+    font-size: larger;
+  }
+  .description a li{
+    font-size: medium;
+  }
+
+  /** Office of the Vice President for Finance fin**/
+  .fincon2{
+    width: 1490px;
+    height: 470px;
+    
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .fintranscontainer{
+  height: 435px;
+  width: 1419;
+    background-color: #f5f5f5ce;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .description a{
+    font-weight:bold;
+    font-size: larger;
+  }
+  .description a li{
+    font-size: medium;
+  }
+
+  /** Office of the Vice President for Religious Education, Mission and Identity REMI**/
+  .REMIcon2{
+    width: 1475px;
+    height: 530px;
+    
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .REMItranscontainer{
+    height: 490px;
+    width: 1419;
+    background-color: #f5f5f5ce;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }
+  .description a{
+    font-weight:bold;
+    font-size: larger;
+  }
+  .description a li{
+    font-size: medium;
+  }
+
+
+
+  /**try side nav**/
+  #mySidenav a {
+    position:fixed;
+    right: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    text-align: left;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    right: 0;
+  }
+  
+  #home {
+    top: 100px;
+    background-color: #04AA6D;
+  }
+  
+  #about {
+    top: 160px;
+    background-color: #5da9e7;
+  }
+  #admission {
+    top: 220px;
+    background-color: #f44336;
+  }
+  
+  #scholarship {
+    top: 280px;
+    background-color: #555
+  }
+
+  /**Partnerships **/
+  .partCon{
+    width: auto;
+    height:auto;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cdsjHP.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    }
+    .partpic{
+      display: block;
+      margin-left: 28%;
+      margin-right: auto;
+      margin-top: 2%;
+    }
+    .partcon2{
+      width: 1475px;
+      height: 520px;
+      
+      background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("letran.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-left: 15px;
+      padding-top: 10px;
+      padding-bottom: 15px;
+      padding-right: 15px;
+    }
+    .parttranscontainer{
+    height: 450px;
+      width: 1100;
+      padding: 2rem;
+      background-color: #ffffff;
+      border: 1px solid black;
+      opacity: 0.8;
+      grid-template-columns: auto auto auto auto;
+    
+      display: flex;
+      gap: 50px;
+      flex-direction: row;
+    }
+    .description a{
+      font-weight:bold;
+      font-size: larger;
+    }
+    .description a li{
+      font-size: medium;
+    }
+
+    /**Career0p side nav**/
+  #mySidenavCareerOp a {
+    position:fixed;
+    right: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    text-align: left;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenavCareerOp a:hover {
+    right: 0;
+  }
+  
+  #home {
+    top: 100px;
+    background-color: #04AA6D;
+  }
+  
+  #org {
+    top: 160px;
+    background-color: #5da9e7;
+  }
+  #corpInfo {
+    top: 220px;
+    background-color: #f44336;
+  }
+  
+  #careerOp {
+    top: 303px;
+    background-color: #555
+  }
+  #contacUst{
+    top: 385px;
+    background-color: rgb(5, 56, 80)
+  }
+
+  /**BED sidenav **/
+  #mySidenavBED a{
+  position:fixed;
+  right: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  text-align: left;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenavBED a:hover {
+  right: 0;
+}
+#AdminBED {
+  top: 100px;
+  background-color: #04AA6D;
+}
+
+#ContactBED {
+  top: 160px;
+  background-color: #5da9e7;
+}
+#Edu {
+  top: 220px;
+  background-color: #f44336;
+}
+
+#knightm {
+  top: 280px;
+  background-color: #555
+}
+#Off365{
+  top: 340px;
+  background-color: rgb(5, 56, 80)
+}
